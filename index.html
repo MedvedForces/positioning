@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Практика позиционирования</title>
@@ -8,27 +8,39 @@
 <body>
 
 <button id="open-modal-btn">Открыть модальное окно</button>
+
 <div id="modal-overlay" class="modal-overlay hidden">
     <div class="modal-window">
-        <!-- Кнопка закрытия (крестик) -->
         <button class="close-btn">&times;</button>
 
         <img src="designs/lightbox.jpg" alt="" class="modal-image">
+        
         <div class="modal-content">
             <h2>Заголовок окна</h2>
+            
+            <div class="progress-container">
+                <div class="progress-bg">
+                    <span class="progress-label label-dark">Loading...</span>
+                </div>
+
+                <div class="progress-fill" style="width: 42%;">
+                    <span class="progress-label label-light">Loading...</span>
+                </div>
+            </div>
+
             <p>Здесь какой-то текст или картинка из файла lightbox.jpg</p>
         </div>
     </div>
 </div>
 
-    <div class="logo-class">
-        <img src="designs/logo1.png" alt="1 логотип" class="logo-img">
-    </div>
+<div class="logo-class">
+    <img src="designs/logo1.png" alt="1 логотип" class="logo-img">
+</div>
 
-    <div class="logo-class">
-        <img src="designs/logo2.png" alt="2 логотип" class="logo-img">
-    </div>
+<div class="logo-class">
+    <img src="designs/logo2.png" alt="2 логотип" class="logo-img">
+</div>
 
-    <script src="index.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
