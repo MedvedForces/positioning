@@ -9,12 +9,10 @@ const openBtn = document.getElementById('open-modal-btn');
 const overlay = document.getElementById('modal-overlay');
 const closeBtn = document.querySelector('.close-btn');
 
-// Открыть
 openBtn.addEventListener('click', () => {
     overlay.classList.remove('hidden');
 });
 
-// Закрыть по крестику
 closeBtn.addEventListener('click', () => {
     overlay.classList.add('hidden');
 });

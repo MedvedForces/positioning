@@ -6,8 +6,6 @@
     cursor: pointer;
     background-color: #4CAF50;
     color: white;
-
-    border-radius: 4px;
 }
 
 #open-modal-btn:hover {
@@ -34,7 +32,6 @@
 .modal-window {
     width: 640px;
     background-color: #fff;
-    border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     position: relative;
     padding: 20px;
@@ -51,25 +48,10 @@
     background: none;
     border: none;
     line-height: 1;
-    transition: color 0.3s;
 }
 
 .close-btn:hover {
     color: #000;
-}
-
-.modal-content {
-    padding-top: 10px;
-}
-
-.modal-content h2 {
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.modal-content p {
-    line-height: 1.6;
-    color: #666;
 }
 
 .modal-image{
